@@ -1,0 +1,30 @@
+{
+  "name": "SergioEnrique/incog-adventure",
+  "description": "Incog Adventure application",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Misraim Mendoza",
+      "email": "michmendar@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-0": {"": "src/"}
+  },
+  "config": {
+    "bin-dir": "bin/"
+  },
+  "require": {
+    "php": ">=5.5",
+    "ramsey/uuid": "~3.2"
+  },
+  "require-dev": {
+    "phing/phing": "~2.13",
+    "behat/behat": "~3.0.6",
+    "phpspec/phpspec": "~2.4.1",
+    "doctrine/data-fixtures": "~1.1.1",
+    "codeception/codeception": "~2.1.6",
+    "phpunit/phpunit": "~4.8",
+    "fzaninotto/faker": "~1.5"
+  }
+}
